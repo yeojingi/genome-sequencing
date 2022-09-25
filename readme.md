@@ -1,7 +1,7 @@
 # Genome Sequencing
 
 ## Week 1
-<p align="center"><img src="https://raw.githubusercontent.com/yeojingi/genome-sequencing/main/img/Konigsberg_bridges.png" width="40%"></p>
+<p align="center"><img src="https://github.com/yeojingi/genome-sequencing/blob/main/img/gluing_tg.png" width="40%"></p>
 
 <p>Shotgun Sequencing을 하기 위해 적절한 데이터 구조를 알아보자. <br>
 
