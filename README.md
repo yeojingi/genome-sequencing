@@ -1,14 +1,19 @@
 # Genome Sequencing
 
 ## Week 1
-<p align="center"><img src="https://github.com/yeojingi/finding-hidden-messages-in-dna/blob/main/others/imgs/ori2.png" width="40%"></p>
-<!-- ![ORI](https://github.com/yeojingi/finding-hidden-messages-in-dna/blob/main/others/imgs/ori2.png){: width="40%"}  -->
-<p>Ori로 추정되는 DNA Sequence 추적하기. <br>
-주어진 구간 안에서 존재하는 k 길이의 문자열의 발생 빈도를 찾는 함수를 만들고, 그것의 생물학적 의미를 스터디 함.</p>
+<p align="center"><img src="https://raw.githubusercontent.com/yeojingi/genome-sequencing/main/img/Konigsberg_bridges.png" width="40%"></p>
+
+<p>Shotgun Sequencing을 하기 위해 적절한 데이터 구조를 알아보자. <br>
 
 ### 과제 사례
 |파일명|내용|결과|비고|
 |------|---|---|---|
-|[PatternMatching.py](https://github.com/yeojingi/finding-hidden-messages-in-dna/blob/main/week1/some-hidden-messages-are-more-surprising/PatternMatching.py)|Vibrio cholerae의 유전체에서 "CTTGATCAT" 라는 문자열이 나오는 index를 출력|60039 98409 129189 152283 152354 152411 163207 197028 200160 357976 376771 392723 532935 600085 622755 1065555|[데이터](https://github.com/yeojingi/finding-hidden-messages-in-dna/blob/main/week1/some-hidden-messages-are-more-surprising/dataset/Vibrio_cholerae.txt)|
-|[EcoliFindClumps.py](https://github.com/yeojingi/finding-hidden-messages-in-dna/blob/main/week1/some-hidden-messages-are-more-surprising/EcoliFindClumps.py) |E coli의 유전체를 길이 500의 winodw로 유전체를 sliding 하며 각 window 내에서 3회 이상 나타나는 길이 9 이상의 문자열의 갯수를 출력함| 1904|[데이터](https://github.com/yeojingi/finding-hidden-messages-in-dna/blob/main/week1/some-hidden-messages-are-more-surprising/dataset/E_coli.txt)|
-
+|[OverlapGraph.py](https://github.com/yeojingi/genome-sequencing/blob/main/week1/OverlapGraph.py)|주어진 k-mers 데이터에서 뒤의 k-1과 앞의 k-1가 겹치는 k-mer끼리 묶어서 output을 출력한다 |ATGCG GCATG CATGC AGGCA GGCAT GGCAC| CATGC: ATGCG  
+GCATG: CATGC  
+GGCAT: GCATG  
+AGGCA: GGCAC GGCAT|
+|[DeBrujinGraphFromKMers.py](https://github.com/yeojingi/genome-sequencing/blob/main/week1/DeBrujinGraphFromKMers.py)|위의 OverlapGraph.py와 달리 k-mers와 k-mers 간의 연결 관계를 표시하는 것이 아니라, k-mer의 앞의 k-1 부분(prefix)과 뒤의 k-1(suffix)를 edge로 만든다. 즉, k-mer가 노드가 되는 것이 아니라 엣지로서 표현된다.|GAGG CAGG GGGG GGGA CAGG AGGG GGAG|AGG: GGG  
+CAG: AGG AGG  
+GAG: AGG  
+GGA: GAG  
+GGG: GGA GGG|
