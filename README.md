@@ -1,2 +1,14 @@
-# genome-sequencing
-생물정보학 과제 2
+# Genome Sequencing
+
+## Week 1
+<p align="center"><img src="https://github.com/yeojingi/finding-hidden-messages-in-dna/blob/main/others/imgs/ori2.png" width="40%"></p>
+<!-- ![ORI](https://github.com/yeojingi/finding-hidden-messages-in-dna/blob/main/others/imgs/ori2.png){: width="40%"}  -->
+<p>Ori로 추정되는 DNA Sequence 추적하기. <br>
+주어진 구간 안에서 존재하는 k 길이의 문자열의 발생 빈도를 찾는 함수를 만들고, 그것의 생물학적 의미를 스터디 함.</p>
+
+### 과제 사례
+|파일명|내용|결과|비고|
+|------|---|---|---|
+|[PatternMatching.py](https://github.com/yeojingi/finding-hidden-messages-in-dna/blob/main/week1/some-hidden-messages-are-more-surprising/PatternMatching.py)|Vibrio cholerae의 유전체에서 "CTTGATCAT" 라는 문자열이 나오는 index를 출력|60039 98409 129189 152283 152354 152411 163207 197028 200160 357976 376771 392723 532935 600085 622755 1065555|[데이터](https://github.com/yeojingi/finding-hidden-messages-in-dna/blob/main/week1/some-hidden-messages-are-more-surprising/dataset/Vibrio_cholerae.txt)|
+|[EcoliFindClumps.py](https://github.com/yeojingi/finding-hidden-messages-in-dna/blob/main/week1/some-hidden-messages-are-more-surprising/EcoliFindClumps.py) |E coli의 유전체를 길이 500의 winodw로 유전체를 sliding 하며 각 window 내에서 3회 이상 나타나는 길이 9 이상의 문자열의 갯수를 출력함| 1904|[데이터](https://github.com/yeojingi/finding-hidden-messages-in-dna/blob/main/week1/some-hidden-messages-are-more-surprising/dataset/E_coli.txt)|
+
