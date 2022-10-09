@@ -21,3 +21,13 @@
 |[EulerianCycle.py](https://github.com/yeojingi/genome-sequencing/blob/main/week2/lesson2/EulerianCycle.py)|주어진 edge 데이터에서 오일러 회로를 만들었다. |-|-|
 |[EulerianPath.py](https://github.com/yeojingi/genome-sequencing/blob/main/week2/lesson2/EulerianPath.py)|주어진 edge 데이터에서 오일러 경로를 만들었다.| - | - |
 |[kUniversalCircularString.py](https://github.com/yeojingi/genome-sequencing/blob/main/week2/lesson2/kUniversalCircularString.py)| 길이 k의 모든 이진수에서, 오일러 회로를 만들었다.|-|-|
+
+## Week 3 - How do we sequence antibiotics? part I
+
+<p align="center"><img src="https://github.com/yeojingi/genome-sequencing/blob/main/img/mass_spectrometer.jpeg" width="70%"></p>
+<p>Mass spectrometer를 통해 읽어 들인 단백질의 질량 데이터를 통해 단백질의 아미노산 서열을 sequencing해보자.<br>
+
+### 과제 사례
+|파일명|내용|결과|비고|
+|------|---|---|---|
+|[CycloPeptideSequencing.py](https://github.com/yeojingi/genome-sequencing/blob/main/week3/lesson4/CycloPeptideSequencing.py)|Mass spectromter를 통해 알게 된 단백질의 질량 데이터를 통해, 단백질의 아미노산 서열(각 서열의 질량)을 sequencing하였다 |186-147-114-128-163-99-128-113-147-97 147-114-128-163-99-128-113-147-97-186 114-128-163-99-128-113-147-97-186-147 128-163-99-128-113-147-97-186-147-114 163-99-128-113-147-97-186-147-114-128 99-128-113-147-97-186-147-114-128-163 128-113-147-97-186-147-114-128-163-99 113-147-97-186-147-114-128-163-99-128 147-97-186-147-114-128-163-99-128-113 186-97-147-113-128-99-163-128-114-147 97-147-113-128-99-163-128-114-147-186 147-186-97-147-113-128-99-163-128-114 114-147-186-97-147-113-128-99-163-128 128-114-147-186-97-147-113-128-99-163 163-128-114-147-186-97-147-113-128-99 99-163-128-114-147-186-|[Tyrocidine_B1_theoretical_spectrum](https://github.com/yeojingi/genome-sequencing/blob/main/week3/lesson4/data/Tyrocidine_B1_theoretical_spectrum.txt)|
