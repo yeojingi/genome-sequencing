@@ -30,4 +30,4 @@
 ### 과제 사례
 |파일명|내용|결과|비고|
 |------|---|---|---|
-|[CycloPeptideSequencing.py](https://github.com/yeojingi/genome-sequencing/blob/main/week3/lesson4/CycloPeptideSequencing.py)|Mass spectromter를 통해 알게 된 단백질의 질량 데이터를 통해, 단백질의 아미노산 서열(각 서열의 질량)을 sequencing하였다 |186-147-114-128-163-99-128-113-147-97 147-114-128-163-99-128-113-147-97-186 ... [결과](https://github.com/yeojingi/genome-sequencing/blob/main/week3/lesson4/data/output_Tyrocidine_B1_theoretical_spectrum.txt)|[Tyrocidine_B1_theoretical_spectrum](https://github.com/yeojingi/genome-sequencing/blob/main/week3/lesson4/data/Tyrocidine_B1_theoretical_spectrum.txt)|
+|[CycloPeptideSequencing.py](https://github.com/yeojingi/genome-sequencing/blob/main/week3/lesson4/CycloPeptideSequencing.py)|Mass spectromter를 통해 알게 된 단백질의 질량 데이터를 통해, 단백질의 아미노산 서열(각 서열의 질량)을 sequencing하였다 |186-147-114-128-163-99-128-113-147-97 147-114-128-163-99-128-113-147-97-186 ... [결과](https://github.com/yeojingi/genome-sequencing/blob/main/week3/lesson4/data/output_Tyrocidine_B1_theoretical_spectrum.txt)|[Tyrocidine_B1](https://github.com/yeojingi/genome-sequencing/blob/main/week3/lesson4/data/Tyrocidine_B1_theoretical_spectrum.txt)|
