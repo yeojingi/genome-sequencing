@@ -31,3 +31,14 @@
 |파일명|내용|결과|비고|
 |------|---|---|---|
 |[CycloPeptideSequencing.py](https://github.com/yeojingi/genome-sequencing/blob/main/week3/lesson4/CycloPeptideSequencing.py)|Mass spectromter를 통해 알게 된 단백질의 질량 데이터를 통해, 단백질의 아미노산 서열(각 서열의 질량)을 sequencing하였다 |186-147-114-128-163-99-128-113-147-97 147-114-128-163-99-128-113-147-97-186 ... [결과](https://github.com/yeojingi/genome-sequencing/blob/main/week3/lesson4/data/output_Tyrocidine_B1_theoretical_spectrum.txt)|[Tyrocidine_B1](https://github.com/yeojingi/genome-sequencing/blob/main/week3/lesson4/data/Tyrocidine_B1_theoretical_spectrum.txt)|
+
+## Week 4 - Sequencing antibiotics from erred mass spectrometry
+
+<p align="center"><img src="https://raw.githubusercontent.com/yeojingi/genome-sequencing/main/img/mass_error.png" width="70%"></p>
+<p>이번에는 "에러를 포함한" Mass spectrometer를 통해 읽어 들인 단백질의 질량 데이터를 통해 단백질의 아미노산 서열을 sequencing해보자.<br>
+
+### 과제 사례
+|파일명|내용|결과|비고|
+|------|---|---|---|
+|[LeaderboardCyclopeptideSequencing.py](https://github.com/yeojingi/genome-sequencing/blob/main/week4/lecture2/LeaderboardCyclopeptideSequencing.py)|amino acid 를 1개의 길이부터 하나씩 붙여가며, 주어진 spectrometry 결과와 비교한다. 가장 잘 맞는 것들을 남겨가며 amino acid를 추가해서 sequencing을 한다.|||
+|[ConvolutionCyclopeptideSequencing.py](https://github.com/yeojingi/genome-sequencing/blob/main/week4/lecture3/ConvolutionCyclopeptideSequencing/ConvolutionCyclopeptideSequencing.py)|spectrometry의 결과의 각 질량들의 차이값(convolution)을 통해 sequencing을 한다|||
